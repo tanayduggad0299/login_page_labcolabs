@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Helvetica", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	background-image: url('hypnotize_bg.png');
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(27, 27, 50, 0.8);
+	margin: 5px 0;
+	margin-top: 0;
+}
+
+header a{
+	color: #000;
+}
+
+header a:hover{
+	color: #000;
+}
+
+h1{
+	font-weight: 400;
+	line-height: 1.2;
+	padding: 1.5rem;
+}
+
+p{
+	font-size: 1.125rem;
+}
+
+h1,h2,p{
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+h2{
+	font-weight: 400;
+	line-height: 1.2;
+	padding: 1.5rem;
+}
+
+h5{
+	font-weight: 400;
+	line-height: 2;
+}
+
+a{
+	color: #06f;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #00f;
+}
+
+form{
+	align-items: center;
+	width: 360px;
+	padding: 2.5rem 0.625rem;
+	border-radius: 0.25rem;
+	margin: 5rem auto 0 auto;
+}
+
+input, button{
+	font-size: inherit;
+	font-family: inherit;
+	line-height: inherit;
+}
+
+input{
+	margin: 0 auto 1.25rem auto;
+	padding: 0.25rem;
+	display: block;
+	width: 100%;
+	height: 2.25rem;
+}
+
+button{
+	display: block;
+	width: 90%;
+	height: 2.25rem;
+	padding: 0.25rem;
+	margin: 0 auto 1.25rem auto;
+	border: solid;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	background: #37af65;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	height: 70px;
+	width: 100%;
+	background-color: rgba(27, 27, 50, 0.8);
+	display: flex;
+}
+
+footer h2{
+	flex-grow: 1;
+}
+
+footer p{
+	padding: 1.5rem;
+}
+
+@media (max-width: 480px){
+	header,footer{
+		height: 50px;
+	}
+
+	form{
+		width: 300px;
+	}
+
+	h1{
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 1;
+		padding: 1rem;
+	}
+
+	h2{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1;
+		padding: 1rem;
+	}
+
+	footer p{
+		font-size: 14px;
+		padding: 1rem;
+	}
+}

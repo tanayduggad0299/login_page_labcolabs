@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="formStyle.css">
+</head>
+<body>
+	<header>
+		<h1><a id="home" href="./index.html">App Name</a></h1>
+	</header>
+	<main>
+		<form class="sign-up" method="POST" action="/signup">
+			<input type="text" name="name" placeholder="Full Name" required>
+			<input type="email" name="email" placeholder="Email" required>
+			<input type="password" name="password" placeholder="Password" required>
+
+			<button type="submit" formmethod="post">Sign Up</button>
+
+			<h5>Already have an account? <a href="log-in.html">Log In</a></h5>
+			<h5><a href="reset-password.html">Forgot password?</a></h5>
+		</form>
+	</main>
+	<footer>
+		<h2>App Name</h2>
+		<p>&copy; All rights reserved 2020</p>
+	</footer>
+</body>
+</html>
